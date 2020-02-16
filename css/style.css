@@ -1,0 +1,97 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgba(87, 172, 248, 1);
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+header h2{
+    padding: 10px 20px;
+    margin: 0;
+    color: #333;
+}
+
+header h3{
+    margin: 10px 20px;
+    color: #333;
+    text-align: center;
+}
+
+.form-wrapper{
+    width: 40%;
+    margin: 0 30%;
+}
+
+form input{
+    width: calc(99% - 10px);
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    line-height: 1.7rem;
+    font-size: 1rem;
+    padding-left: 10px;
+}
+
+form input:focus {
+    outline: none;
+    border: 1px solid deepskyblue;
+}
+
+form button{
+    width: 100%;
+    border: none;
+    background-color: lightblue;
+    border-radius: 10px;
+    line-height: 1.7rem;
+    font-size: 1rem;
+    color: #333333;
+}
+
+.success{
+    color: green;
+}
+
+.error{
+    color: red;
+}
+
+.list-wrapper{
+    width: 90%;
+    margin: 0 5%;
+}
+
+.row{
+    display: block;
+    clear: both;
+    margin-bottom: 20px;
+    height: 10px;
+}
+
+.w-5{
+    float: left;
+    width: 5%;
+}
+
+.w-45{
+    float: left;
+    width: 45%;
+}
+
+.w-45{
+    float: left;
+    width: 45%;
+}
+
+.list-wrapper a{
+    color: #333;
+}
+
+.list-wrapper .w-5 a{
+    text-decoration: none;
+    color: red;
+}
